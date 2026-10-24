@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - My Project MCP Test</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #1e293b;
+            --accent-color: #2563eb;
+            --border-color: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+        h1 {
+            color: #0f172a;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 12px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 28px;
+            font-size: 1.25rem;
+        }
+        p, li {
+            color: #475569;
+        }
+        .date {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidade</h1>
+        <div class="date">Última atualização: 23 de outubro de 2026</div>
+
+        <p>Esta Política de Privacidade descreve como o <strong>My Project MCP Test</strong> coleta, usa, armazena e protege os dados acessados através das integrações com as APIs e Serviços do Google (incluindo, mas não se limitando a Google Sheets, Google Drive, Gmail, Google Calendar, entre outros) através da ferramenta de automação n8n.</p>
+
+        <h2>1. Informações que Coletamos</h2>
+        <p>Nossa integração utiliza o protocolo OAuth 2.0 fornecido pelo Google para autenticar e executar automações autorizadas. As informações e escopos acessados dependem estritamente das permissões concedidas pelo usuário e podem incluir:</p>
+        <ul>
+            <li><strong>Dados de Identificação e Perfil:</strong> Endereço de e-mail e identificadores básicos da conta autenticada para verificação e controle de acesso.</li>
+            <li><strong>Dados de Serviços do Google:</strong> Leitura, criação, atualização, organização ou exclusão de dados nos serviços do Google autorizados (como planilhas, arquivos, e-mails, eventos de agenda ou contatos), conforme necessário para a execução dos fluxos de trabalho.</li>
+        </ul>
+
+        <h2>2. Como Usamos as Informações</h2>
+        <p>Todas as informações e dados acessados por meio das APIs do Google são utilizados exclusivamente para:</p>
+        <ul>
+            <li>Executar, processar e automatizar os fluxos de trabalho (<em>workflows</em>) configurados pelo usuário na plataforma n8n.</li>
+            <li>Realizar operações solicitadas diretamente pelas rotinas de automação (como leitura, sincronização e escrita de dados).</li>
+            <li>Garantir a funcionalidade, integridade e segurança técnica do serviço.</li>
+        </ul>
+        <p><strong>Compromisso de Uso Limitado:</strong> Os dados acessados <strong>NÃO</strong> são utilizados para fins publicitários, comercialização de perfil, envio de anúncios nem para treinamento de modelos de Inteligência Artificial (IA) ou aprendizado de máquina (Machine Learning).</p>
+
+        <h2>3. Compartilhamento e Transferência de Dados</h2>
+        <p>Não vendemos, alugamos, compartilhamos ou transferimos seus dados pessoais ou qualquer conteúdo obtido das APIs do Google para terceiros. O processamento de dados ocorre de forma estritamente técnica entre a sua conta Google e a nossa instância do n8n.</p>
+
+        <h2>4. Armazenamento e Segurança dos Dados</h2>
+        <ul>
+            <li><strong>Credenciais de Acesso:</strong> Tokens de acesso OAuth (Access e Refresh Tokens) são armazenados de forma criptografada no banco de dados do n8n.</li>
+            <li><strong>Retenção de Dados:</strong> O conteúdo dos serviços do Google é processado temporariamente em memória durante a execução das automações. Não mantemos cópias permanentes dos dados do usuário em nossos servidores, salvo logs técnicos de execução retidos por período limitado para depuração e auditoria.</li>
+        </ul>
+
+        <h2>5. Direitos do Usuário e Revogação de Acesso</h2>
+        <p>Você pode revogar as permissões e o acesso do nosso aplicativo à sua conta Google a qualquer momento através da página de segurança do Google: <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">https://myaccount.google.com/permissions</a>.</p>
+
+        <h2>6. Contato</h2>
+        <p>Se tiver dúvidas sobre esta Política de Privacidade ou sobre o tratamento de seus dados nas integrações com o Google, entre em contato pelo e-mail: <a href="mailto:renan.martins@aluno.uepb.edu.br">renan.martins@aluno.uepb.edu.br</a>.</p>
+    </div>
+</body>
+</html>
